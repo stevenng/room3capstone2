@@ -17,9 +17,9 @@ spec:
       labels:
         app: room3-capstone2-cluster4
     spec:
-    containers:
-      - image: 962804699607.dkr.ecr.us-west-2.amazonaws.com/room3-capstone2-ecr:latest
-        imagePullPolicy: Always
-        name: room3-capstone2-cluster4
-        ports:
-          - containerPort: 80
+      containers:
+        - image: 962804699607.dkr.ecr.us-west-2.amazonaws.com/room3-capstone2-ecr:latest
+          imagePullPolicy: Always
+          name: room3-capstone2-cluster4
+          ports:
+            - containerPort: 80
